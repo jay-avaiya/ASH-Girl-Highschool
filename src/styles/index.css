@@ -3,17 +3,17 @@
 /* STATIC FONTS */
 @font-face {
      font-family: 'Inter';
-     src: url('/public/fonts/Inter.ttf') format('truetype');
+     src: url('/fonts/Inter.ttf') format('truetype');
 }
 
 @font-face {
      font-family: 'Roboto';
-     src: url('/public/fonts/Roboto.ttf') format('truetype');
+     src: url('/fonts/Roboto.ttf') format('truetype');
 }
 
 @font-face {
      font-family: 'Manrope';
-     src: url('/public/fonts/Manrope.ttf') format('truetype');
+     src: url('/fonts/Manrope.ttf') format('truetype');
 }
 
 
