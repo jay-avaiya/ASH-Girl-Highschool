@@ -1,9 +1,12 @@
 import React from "react";
+import Calendar from "./_components/Calendar";
+import HeroSlider from "./_components/HeroSlider";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Homepage</h1>
+      <HeroSlider />
+      <Calendar />
     </div>
   );
 };

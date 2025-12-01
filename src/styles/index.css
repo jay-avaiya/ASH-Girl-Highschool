@@ -24,7 +24,13 @@
 :root {
   --font-sans: "Poppins", sans-serif;
 }
+
 body {
   font-family: var(--font-sans);
 }
+
+@utility vcut {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 51% 90%, 0 100%);
+}
+
 
