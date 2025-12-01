@@ -107,6 +107,7 @@ const Navbar = () => {
         {/* NAVBAR */}
         <div className="hidden lg:flex lg:px-14 lg:py-2 xl:px-14 items-center justify-between">
           <img
+            onClick={() => navigate("/")}
             src="/logo.png"
             alt="logo"
             className="lg:h-[70px] lg:w-[160px] xl:h-[125px] xl:w-[244px] cursor-pointer object-cover scale-110 translate-y-1"
