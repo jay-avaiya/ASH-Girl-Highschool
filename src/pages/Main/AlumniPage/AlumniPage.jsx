@@ -1,9 +1,9 @@
-import React from "react";
+import Banner from "../../../layouts/main_component/Banner";
 
 const AlumniPage = () => {
   return (
     <div>
-      <h1>AlumniPage</h1>
+      <Banner current={"Alumni"} />
     </div>
   );
 };

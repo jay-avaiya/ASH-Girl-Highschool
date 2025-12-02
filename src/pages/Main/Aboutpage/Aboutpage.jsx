@@ -1,9 +1,9 @@
-import React from "react";
+import Banner from "../../../layouts/main_component/Banner";
 
 const AboutPage = () => {
   return (
     <div>
-      <h1>About</h1>
+      <Banner to={"Home"} current={"About Us"} />
     </div>
   );
 };

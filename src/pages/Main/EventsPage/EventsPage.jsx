@@ -1,9 +1,9 @@
-import React from "react";
+import Banner from "../../../layouts/main_component/Banner";
 
 const EventsPage = () => {
   return (
     <div>
-      <h1>EventsPage</h1>
+      <Banner current={"Event"} />
     </div>
   );
 };

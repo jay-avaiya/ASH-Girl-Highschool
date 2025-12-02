@@ -1,9 +1,9 @@
-import React from "react";
+import Banner from "../../../layouts/main_component/Banner";
 
 const ContactPage = () => {
   return (
     <div>
-      <h1>ContactPage</h1>
+      <Banner current={"Contact Us"} />
     </div>
   );
 };

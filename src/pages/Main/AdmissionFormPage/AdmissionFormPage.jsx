@@ -1,9 +1,9 @@
-import React from "react";
+import Banner from "../../../layouts/main_component/Banner";
 
 const AdmissionFormPage = () => {
   return (
     <div>
-      <h1>AdmissionFormPage</h1>
+      <Banner to={"Admission"} current={"Admission Form"} path="admission" />
     </div>
   );
 };

@@ -1,9 +1,9 @@
-import React from "react";
+import Banner from "../../../layouts/main_component/Banner";
 
 const GalleryPage = () => {
   return (
     <div>
-      <h1>GalleryPage</h1>
+      <Banner current={"Gallery"} />
     </div>
   );
 };

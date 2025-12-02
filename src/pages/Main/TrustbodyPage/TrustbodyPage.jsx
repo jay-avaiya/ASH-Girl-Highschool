@@ -1,9 +1,9 @@
-import React from "react";
+import Banner from "../../../layouts/main_component/Banner";
 
 const TrustbodyPage = () => {
   return (
     <div>
-      <h1>TrustbodyPage</h1>
+      <Banner current={"Trust Body"} />
     </div>
   );
 };
