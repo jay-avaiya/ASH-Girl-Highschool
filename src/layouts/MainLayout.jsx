@@ -8,9 +8,14 @@ export default function MainLayout() {
   return (
     <div>
       <Navbar />
-      <Outlet />
-      <Map />
-      <Footer />
+
+      <div className="flex flex-col gap-40">
+        <Outlet />
+        <div>
+          <Map />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
