@@ -1,6 +1,8 @@
 import CardLeft from "../../../layouts/main_component/About And Mission/CardLeft";
 import CardRight from "../../../layouts/main_component/Vission And Purpose/CardRight";
 import Calendar from "./_components/Calendar";
+import Events from "./_components/Events";
+import Gallery from "./_components/Gallery";
 import HeroSlider from "./_components/HeroSlider";
 
 const HomePage = () => {
@@ -29,6 +31,10 @@ const HomePage = () => {
       />
 
       <Calendar />
+
+      <Events />
+
+      <Gallery />
     </div>
   );
 };
