@@ -68,6 +68,10 @@ const Navbar = () => {
       path: "/events",
     },
     {
+      name: "Career",
+      path: "/career",
+    },
+    {
       name: "Contact Us",
       path: "/contact",
     },
@@ -176,7 +180,7 @@ const Navbar = () => {
         </button>
 
         <div
-          className={` fixed inset-0 bg-[#1C375E] text-white z-50 transform transition-all duration-300 flex flex-col gap-3.5 px-5 py-8 ${
+          className={` fixed inset-0 bg-[#1C375E] text-white z-50 h-screen overflow-y-auto transform transition-all duration-300 flex flex-col gap-3.5 px-5 py-8 ${
             isOpen ? "-translate-x-0" : "-translate-x-full"
           }`}
         >

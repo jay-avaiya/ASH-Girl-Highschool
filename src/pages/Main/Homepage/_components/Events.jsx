@@ -26,7 +26,7 @@ const Events = () => {
       {/* cards */}
       <div className="grid grid-cols-2 gap-6">
         {[1, 2, 3, 4].map((i) => (
-          <div className="relative">
+          <div key={i} className="relative">
             <img
               src="/event.png"
               alt="event"
