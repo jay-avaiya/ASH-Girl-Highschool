@@ -39,3 +39,7 @@ body {
 .my-dot.swiper-pagination-bullet-active {
   background-color: #cc4237 !important;
 }
+
+.gallery-pagination .swiper-pagination-bullet-active {
+  background: #cc4237 !important;
+}

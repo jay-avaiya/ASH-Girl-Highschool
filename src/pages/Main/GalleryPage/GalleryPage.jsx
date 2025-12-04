@@ -1,5 +1,6 @@
 import GalleryImage from "../../../components/GalleryImage";
 import Banner from "../../../layouts/main_component/Banner";
+import Slider from "./_components/Slider";
 
 const GalleryPage = () => {
   return (
@@ -21,6 +22,7 @@ const GalleryPage = () => {
 
         <GalleryImage />
       </div>
+      <Slider />
     </div>
   );
 };
