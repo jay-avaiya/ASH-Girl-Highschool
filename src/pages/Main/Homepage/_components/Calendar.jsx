@@ -12,21 +12,21 @@ const events = [
     title: "Guru Purnima Celebration",
     time: "9:00 AM",
     date: "2025-06-25",
-    img: "/calendar.png",
+    img: "/event.png",
     desc: "Lorem ispum dolor sit amet, lorem ispum dolor sit amet.",
   },
   {
     title: "Annual Day Celebration",
     time: "10:00 AM",
     date: "2025-07-25",
-    img: "/calendar.png",
+    img: "/event.png",
     desc: "Lorem ispum dolor sit amet, lorem ispum dolor sit amet.",
   },
   {
     title: "Friendship Day Celebration",
     time: "11:00 AM",
     date: "2025-08-25",
-    img: "/calendar.png",
+    img: "/event.png",
     desc: "Lorem ispum dolor sit amet, lorem ispum dolor sit amet.",
   },
 ];
@@ -264,7 +264,7 @@ const Calendar = () => {
           </div>
         </div>
 
-        <button className="w-fit md:h-[50px] h-[45px] bg-[#CC4237] rounded-[50px] text-white font-semibold md:text-[20px] text-[16px] flex justify-center items-center gap-x-4 mx-auto mt-12 px-8">
+        <button className="w-fit md:h-[50px] h-[45px] bg-[#CC4237] rounded-[50px] text-white font-semibold md:text-[20px] text-[16px] flex justify-center items-center gap-x-4 mx-auto mt-12 px-8 cursor-pointer">
           Download Now <ArrowRight />
         </button>
       </div>
