@@ -49,7 +49,7 @@ const Navbar = () => {
     },
     {
       name: "About Us",
-      path: "/about-us",
+      path: "/about",
     },
     {
       name: "Trust Body",

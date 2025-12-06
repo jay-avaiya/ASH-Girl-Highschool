@@ -6,14 +6,14 @@ import Collage from "./_components/Collage";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col gap-40">
+    <div className="flex flex-col items-center gap-36">
       <Banner to={"Home"} current={"About Us"} />
 
-      <div className="flex flex-col items-center text-center gap-5">
-        <h3 className="text-[#CC4237] text-[34px] font-montserrat font-bold">
+      <div className="flex flex-col items-center text-center space-y-5 px-3 md:px-8 lg:px-14">
+        <h3 className="text-[#CC4237] text-2xl md:text-3xl xl:text-[34px] font-montserrat font-bold">
           About the School
         </h3>
-        <p className="text-xl w-[80%]">
+        <p className="text-[16px] md:text-xl xl:text-2xl w-full xl:w-[91%]">
           Ash Girls School is more than just a place of learning—it's a
           nurturing ground where young minds are empowered to grow, explore, and
           thrive. Founded on the belief that education is the most powerful tool
@@ -81,11 +81,11 @@ const AboutPage = () => {
       />
 
       {/* Faculty Card */}
-      <div className="flex flex-col items-center justify-center gap-16 px-14">
-        <h3 className="text-[#CC4237] text-4xl font-montserrat font-bold">
+      <div className="flex flex-col items-center justify-center gap-16 px-8 lg:px-14 ">
+        <h3 className="text-[#CC4237] text-3xl md:text-4xl font-montserrat font-bold">
           Faculty
         </h3>
-        <div className="grid grid-cols-4 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-16">
           {/* <Card /> */}
           {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
             <Card key={i} />
