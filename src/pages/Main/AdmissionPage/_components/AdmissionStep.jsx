@@ -6,7 +6,7 @@ const AdmissionStep = () => {
       <img src="/step.png" alt="" width={"auto"} height={"auto"} />
 
       {/* Step 1 */}
-      <div className="absolute left-[12.8%] top-[3.6%] flex">
+      <div className="absolute left-[12.8%] top-[.6%] flex">
         <div>
           <div className="w-11 h-11 rounded-full border border-[#CC4237] flex items-center justify-center font-lato text-[#CC4237] text-lg">
             01
@@ -56,7 +56,7 @@ const AdmissionStep = () => {
       </div>
 
       {/* Step 3 */}
-      <div className="absolute right-[8.6%] top-[2%] flex">
+      <div className="absolute right-[8.6%] top-[.6%] flex">
         <div>
           <div className="w-11 h-11 rounded-full border border-[#CC4237] flex items-center justify-center font-lato text-[#CC4237] text-lg">
             03
@@ -81,7 +81,7 @@ const AdmissionStep = () => {
       </div>
 
       {/* Step 4 */}
-      <div className="absolute -right-[2.2%] bottom-[35.8%] flex">
+      <div className="absolute -right-[.9%] bottom-[36.9%] flex">
         <div>
           <div className="w-11 h-11 rounded-full border border-[#CC4237] flex items-center justify-center font-lato text-[#CC4237] text-lg">
             04
