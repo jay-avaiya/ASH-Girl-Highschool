@@ -15,23 +15,22 @@ const Slider = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center h-screen gap-20">
+    <div className="flex flex-col items-center min-h-screen gap-20 overflow-x-hidden w-full">
       {/* heading */}
       <div className="flex flex-col items-center text-center space-y-5">
-        <h3 className="text-[#CC4237] text-[34px] font-montserrat font-bold">
+        <h3 className="text-[#CC4237] text-3xl lg:text-[34px] font-montserrat font-bold">
           Diwali Festival Celebration
         </h3>
-        <p className="text-2xl w-[67%]">
+        <p className="text-[16px] md:text-xl xl:text-2xl w-[67%]">
           Our nurturing environment encourages every student to think
           creatively, learn enthusiastically, and grow confidently.
         </p>
       </div>
 
       {/* swiper */}
-      {/*  */}
-      <div className="flex flex-col items-center gap-8">
+      <div className="flex flex-col items-center gap-8 w-full px-3 overflow-x-hidden">
         <Swiper
-          slidesPerView={3.5}
+          loop={true}
           spaceBetween={10}
           pagination={{
             clickable: true,
@@ -41,13 +40,26 @@ const Slider = () => {
             prevEl: ".gallery-prev",
             nextEl: ".gallery-next",
           }}
-          loop={true}
           modules={[Pagination, Navigation]}
-          className="gallery-swiper w-full max-w-screen"
+          className="gallery-swiper w-full overflow-hidden"
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3.5,
+            },
+          }}
         >
           {images.map((image, i) => (
-            <SwiperSlide key={i}>
-              <div className="w-[350px] h-[380px]">
+            <SwiperSlide
+              key={i}
+              className="flex justify-center overflow-hidden"
+            >
+              <div className="w-full h-[380px]">
                 <img
                   src={image.path}
                   alt={image.alt}
@@ -58,11 +70,11 @@ const Slider = () => {
           ))}
         </Swiper>
 
-        <div className="flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-4">
           <button className="gallery-prev cursor-pointer">
             <ArrowLeft size={20} />
           </button>
-          <div className="gallery-pagination flex justify-center items-center gap-2"></div>
+          <div className="gallery-pagination flex justify-center items-center gap-2" />
           <button className="gallery-next cursor-pointer">
             <ArrowRight size={20} />
           </button>
