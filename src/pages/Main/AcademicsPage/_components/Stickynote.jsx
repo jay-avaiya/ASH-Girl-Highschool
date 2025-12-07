@@ -4,7 +4,7 @@ const Stickynote = ({ title, text, color = "#FBD767" }) => {
   return (
     <div
       style={{ backgroundColor: color }}
-      className="relative w-[340px] h-[300px] px-4 py-5 
+      className="relative w-[320px] h-[280px] lg:w-[290px] lg:h-[250px] xl:w-[340px] xl:h-[300px] px-4 py-5 
       rotate-[-0.3deg] shadow-[-12px_5px_20px_rgba(0,0,0,0.30)]"
     >
       {/* shadow */}
