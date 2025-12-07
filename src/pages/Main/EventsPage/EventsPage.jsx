@@ -10,11 +10,11 @@ const EventsPage = () => {
       <Banner current={"Event"} />
 
       {/* title */}
-      <div className="flex flex-col items-center space-y-5 text-center">
-        <h3 className="text-[#CC4237] text-[34px] font-montserrat font-bold">
+      <div className="flex flex-col items-center space-y-5 text-center px-3 md:px-8 lg:px-14">
+        <h3 className="text-[#CC4237] text-3xl lg:text-[34px] font-montserrat font-bold">
           Event
         </h3>
-        <p className="text-2xl w-[70%]">
+        <p className="text-[16px] md:text-xl lg:text-2xl w-full lg:w-[80%] xl:w-[70%]">
           Our school regularly organizes cultural, educational, and fun-filled
           events where students get opportunities to explore, participate, and
           shine. These moments help them build confidence, teamwork, creativity,

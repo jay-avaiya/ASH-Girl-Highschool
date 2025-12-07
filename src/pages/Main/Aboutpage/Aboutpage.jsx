@@ -10,7 +10,7 @@ const AboutPage = () => {
       <Banner to={"Home"} current={"About Us"} />
 
       <div className="flex flex-col items-center text-center space-y-5 px-3 md:px-8 lg:px-14">
-        <h3 className="text-[#CC4237] text-2xl md:text-3xl xl:text-[34px] font-montserrat font-bold">
+        <h3 className="text-[#CC4237] text-3xl lg:text-[34px] font-montserrat font-bold">
           About the School
         </h3>
         <p className="text-[16px] md:text-xl xl:text-2xl w-full xl:w-[91%]">
