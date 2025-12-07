@@ -70,7 +70,7 @@ const CardRight = ({ title, para, buttonRequired, i1, i2, i3, i4 }) => {
           src={i4 || "/four.jpg"}
           alt="four"
           className="w-[80px] md:w-[110px] md:h-[90px] xl:w-[124px] xl:h-[100px] object-cover border-[3px] border-white rounded-[10px] md:rounded-[20px]
-          absolute z-50 -translate-y-1/2 -right-10"
+          absolute z-50 -translate-y-1/2 -right-10 xl:-right-5"
         />
       </div>
     </div>

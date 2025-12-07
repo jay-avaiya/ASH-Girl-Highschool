@@ -9,13 +9,13 @@ const Events = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-12 px-14">
+    <div className="flex flex-col items-center gap-6 md:gap-12 px-3 md:px-8 lg:px-14">
       {/* heading */}
       <div className="flex flex-col items-center text-center space-y-3">
-        <h3 className="text-[#CC4237] text-[34px] font-montserrat font-bold">
+        <h3 className="text-[#CC4237] text-3xl lg:text-[34px] font-montserrat font-bold">
           Events
         </h3>
-        <p className="text-xl w-[63%]">
+        <p className="text-[16px] md:text-xl lg:text-2xl w-full lg:w-[75%] xl:w-[63%]">
           Our school regularly organizes cultural, educational, and fun-filled
           events where students get opportunities to explore, participate, and
           shine. These moments help them build confidence, teamwork, creativity,
@@ -24,18 +24,18 @@ const Events = () => {
       </div>
 
       {/* cards */}
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {[1, 2, 3, 4].map((i) => (
           <div key={i} className="relative">
             <img
               src="/event.png"
               alt="event"
-              className="w-[700px] h-[260px] object-cover rounded-[65px] border-[5px] border-white shadow-[0px_0px_15px_rgba(0,0,0,0.25)]"
+              className="w-[500px] xl:w-[700px] h-[260px] object-cover rounded-[50px] xl:rounded-[65px] border-[5px] border-white shadow-[0px_0px_15px_rgba(0,0,0,0.25)]"
             />
             <div className="text-[#011844] font-montserrat font-medium text-sm bg-white px-3 py-2 rounded-full absolute top-6 left-6">
               Sport Day, 5th April 2025
             </div>
-            <button className="absolute right-6 bottom-6 bg-white text-[#CC4237] w-[55px] h-[55px] rounded-full flex items-center justify-center shrink-0 cursor-pointer">
+            <button className="absolute right-6 bottom-6 bg-white text-[#CC4237] w-[40px] h-[40px] xl:w-[55px] xl:h-[55px] rounded-full flex items-center justify-center shrink-0 cursor-pointer">
               <ChevronRight size={30} />
             </button>
           </div>
