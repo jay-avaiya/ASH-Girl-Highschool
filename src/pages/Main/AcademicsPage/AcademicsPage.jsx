@@ -12,7 +12,7 @@ const AcademicsPage = () => {
         <h3 className="text-3xl lg:text-[34px] text-[#CC4237] font-montserrat font-bold">
           Programs We Offer
         </h3>
-        <p className="text-[16px] md:text-xl xl:text-2xl lg:w-[71%] text-center text-amber-700 md:text-teal-700 lg:text-indigo-600 xl:text-red-700">
+        <p className="text-[16px] md:text-xl xl:text-2xl lg:w-[71%] text-center">
           At Ash Girls School, our Managing Committee plays a vital role in
           shaping the strategic direction and nurturing the values that define
           our institution. Each member brings a wealth of experience,
@@ -64,19 +64,19 @@ const AcademicsPage = () => {
         </div>
 
         {/* Achievement card */}
-        <div className="w-full h-[70vh] flex justify-end">
+        <div className="hidden w-full h-[65vh] xl:h-[70vh] lg:flex justify-end">
           <div className="relative w-[82%] h-full bg-[#FF55001C] rounded-[15px] flex flex-col items-end justify-center shadow-[0_0_20px_0_rgba(0,0,0,0.15)]">
-            <div className="w-[81%] flex flex-col items-start">
-              <h3 className="text-[34px] font-montserrat font-semibold">
+            <div className="w-[78%] xl:w-[81%] flex flex-col items-start">
+              <h3 className="text-3xl xl:text-[34px] font-montserrat font-semibold">
                 Grade 10 Topper – 98.6%
               </h3>
-              <p className="text-lg font-medium text-[#8D8D8D] w-[90%] mt-3">
+              <p className="text-[16px] xl:text-lg font-medium text-[#8D8D8D] w-[90%] mt-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 consectetur adipiscing, Lorem ipsum dolor sit amet, consectetur.
                 Lorem dolor sit amet, consectetur adipiscing elit. Lorem ipsum .
               </p>{" "}
               <br /> <br /> <br />
-              <p className="text-lg font-medium text-[#8D8D8D] w-[90%]">
+              <p className="text-[16px] xl:text-lg font-medium text-[#8D8D8D] w-[90%]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 consectetur adipiscing, Lorem ipsum dolor sit amet, consectetur.
                 Lorem dolor sit amet, consectetur adipiscing elit. Lorem ipsum,
@@ -89,8 +89,39 @@ const AcademicsPage = () => {
               src="/a1.png"
               alt="a1"
               className="absolute -left-5 -translate-x-1/2 z-10
-               w-[440px] h-[450px] object-cover border-[12px] border-white rounded-[15px] shadow-[0_0_18px_0_rgba(182,182,182,0.25)]"
+               w-[340px] h-[350px] xl:w-[440px] xl:h-[450px] object-cover border-[12px] border-white rounded-[15px] shadow-[0_0_18px_0_rgba(182,182,182,0.25)]"
             />
+          </div>
+        </div>
+
+        {/* Achievement card ( mobile + tablet ) */}
+        <div className="lg:hidden w-full h-screen flex justify-center mt-36">
+          <div className="relative w-full md:w-[70%] h-[70vh] bg-[#FF55001C] rounded-[15px] flex flex-col items-end justify-center shadow-[0_0_20px_0_rgba(0,0,0,0.15)]">
+            <img
+              src="/a1.png"
+              alt="a1"
+              className="absolute -top-15 md:-top-5 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10
+               w-[280px] h-[280px] md:w-[340px] md:h-[350px] object-cover border-[12px] border-white rounded-[15px] shadow-[0_0_18px_0_rgba(182,182,182,0.25)]"
+            />
+
+            <div className="flex flex-col items-start justify-center text-center mt-8 md:mt-16">
+              <h3 className="text-xl md:text-3xl xl:text-[34px] font-montserrat font-semibold w-full">
+                Grade 10 Topper – 98.6%
+              </h3>
+              <p className="text-sm md:text-[16px] font-medium text-[#8D8D8D]  mt-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                consectetur adipiscing, Lorem ipsum dolor sit amet, consectetur.
+                Lorem dolor sit amet, consectetur adipiscing elit. Lorem ipsum .
+              </p>{" "}
+              <br /> <br /> <br />
+              <p className="text-sm md:text-[16px] font-medium text-[#8D8D8D]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                consectetur adipiscing, Lorem ipsum dolor sit amet, consectetur.
+                Lorem dolor sit amet, consectetur adipiscing elit. Lorem ipsum,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                consectetur adipiscing, Lorem ipsum dolor.
+              </p>
+            </div>
           </div>
         </div>
       </div>
