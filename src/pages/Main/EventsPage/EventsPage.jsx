@@ -14,7 +14,7 @@ const EventsPage = () => {
         <h3 className="text-[#CC4237] text-3xl lg:text-[34px] font-montserrat font-bold">
           Event
         </h3>
-        <p className="text-[16px] md:text-xl lg:text-2xl w-full lg:w-[80%] xl:w-[70%]">
+        <p className="text-[16px] md:text-xl xl:text-2xl w-full lg:w-[80%] xl:w-[70%]">
           Our school regularly organizes cultural, educational, and fun-filled
           events where students get opportunities to explore, participate, and
           shine. These moments help them build confidence, teamwork, creativity,

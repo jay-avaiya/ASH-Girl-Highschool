@@ -128,7 +128,7 @@ const AcademicsPage = () => {
 
       {/* Faculty */}
       <div className="flex flex-col items-center justify-center gap-16 px-14">
-        <h3 className="text-[#CC4237] text-[16px] md:text-3xl xl:text-[34px] font-montserrat font-bold">
+        <h3 className="text-[#CC4237] text-3xl lg:text-[34px] font-montserrat font-bold">
           Faculty
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-16">

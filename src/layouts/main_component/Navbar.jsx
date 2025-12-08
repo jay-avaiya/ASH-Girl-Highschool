@@ -61,7 +61,7 @@ const Navbar = () => {
     },
     {
       name: "Gallery",
-      path: "/events",
+      path: "/gallery",
     },
     {
       name: "Events",
@@ -81,7 +81,7 @@ const Navbar = () => {
     },
     {
       name: "Admission From",
-      path: "/process",
+      path: "/admission-form",
     },
   ];
 

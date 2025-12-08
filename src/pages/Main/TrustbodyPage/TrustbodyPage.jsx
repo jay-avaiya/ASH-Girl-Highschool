@@ -13,7 +13,7 @@ const TrustbodyPage = () => {
           <h3 className="text-3xl lg:text-[34px] font-bold font-montserrat text-[#CC4237]">
             Managing Committee
           </h3>
-          <p className="text-[16px] md:text-lg xl:text-2xl lg:w-[77%]">
+          <p className="text-[16px] md:text-xl xl:text-2xl lg:w-[77%]">
             At Ash Girls School, our Managing Committee plays a vital role in
             shaping the strategic direction and nurturing the values that define
             our institution. Each member brings a wealth of experience,

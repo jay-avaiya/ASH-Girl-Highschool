@@ -64,7 +64,7 @@ const Contact = () => {
           <div className="bg-white shadow-md shadow-black/25 space-y-4 rounded-[20px] px-6 py-10 h-[30vh]">
             <div className="flex items-center gap-4 text-[#B3130F]">
               <Globe />
-              <h4 className="font-montserrat font-semibold text-2xl">
+              <h4 className="font-montserrat font-semibold text-xl md:text-2xl">
                 Website
               </h4>
             </div>
@@ -74,7 +74,7 @@ const Contact = () => {
           <div className="bg-white shadow-md shadow-black/25 space-y-4 rounded-[20px] px-6 py-10 h-[30vh]">
             <div className="flex items-center gap-4 text-[#B3130F]">
               <PhoneOutgoing />
-              <h4 className="font-montserrat font-semibold text-2xl">
+              <h4 className="font-montserrat font-semibold text-xl md:text-2xl">
                 Phone No.
               </h4>
             </div>
@@ -84,7 +84,9 @@ const Contact = () => {
           <div className="bg-white shadow-md shadow-black/25 space-y-4 rounded-[20px] px-6 py-10 h-[30vh]">
             <div className="flex items-center gap-4 text-[#B3130F]">
               <Mail />
-              <h4 className="font-montserrat font-semibold text-2xl">Email</h4>
+              <h4 className="font-montserrat font-semibold text-xl md:text-2xl">
+                Email
+              </h4>
             </div>
             <p className="text-lg">sspatel71@yahoo.in</p>
           </div>
@@ -92,7 +94,7 @@ const Contact = () => {
           <div className="bg-white shadow-md shadow-black/25 space-y-4 rounded-[20px] px-6 py-10 h-[30vh]">
             <div className="flex items-center gap-4 text-[#B3130F]">
               <MapPin />
-              <h4 className="font-montserrat font-semibold text-2xl">
+              <h4 className="font-montserrat font-semibold text-xl md:text-2xl">
                 Location
               </h4>
             </div>

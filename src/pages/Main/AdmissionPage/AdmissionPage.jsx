@@ -14,7 +14,7 @@ const AdmissionPage = () => {
     <div className="flex flex-col gap-36 items-center">
       <Banner current={"Admission"} />
 
-      <div className=" flex flex-col gap-16 px-14">
+      <div className=" flex flex-col gap-16 items-center px-3 md:px-8 lg:px-14 h-fit">
         <div className="text-center space-y-5">
           <h3 className="text-[34px] text-[#CC4237] font-montserrat font-semibold">
             Admission Process

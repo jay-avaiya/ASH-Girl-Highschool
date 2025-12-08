@@ -9,7 +9,7 @@ const CareerPage = () => {
       <div className="px-3 md:px-8 lg:px-14 w-full flex flex-col gap-14 lg:gap-18">
         {/* heading */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
-          <h3 className="text-[#CC4237] text-3xl xl:text-[34px] font-bold font-montserrat lg:w-[35%] xl:w-[30%]">
+          <h3 className="text-[#CC4237] text-3xl xl:text-[34px] font-bold font-montserrat lg:w-[35%] xl:w-[30%] text-center lg:text-left">
             Meet the Team Work Behind Our Success
           </h3>
           <p className="text-lg xl:text-xl lg:w-[60%] xl:w-[55%] text-center lg:text-left">

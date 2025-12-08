@@ -11,7 +11,7 @@ const Card = () => {
       />
       <div className="flex justify-between mt-2 md:mt-3">
         <div>
-          <h4 className="text-xl md:text-3xl font-montserrat font-semibold">
+          <h4 className="text-xl md:text-2xl font-montserrat font-semibold">
             Name
           </h4>
           <p className="text-sm md:text-xl font-medium">Designation</p>

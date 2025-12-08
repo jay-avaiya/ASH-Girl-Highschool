@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Cookies = () => {
@@ -23,7 +23,7 @@ const Cookies = () => {
 
   return (
     <div className="fixed bottom-0 left-0 z-60 py-3 lg:py-6 px-11 bg-white flex flex-row gap-24 w-full items-center justify-center rounded-t-[20px]">
-      <div className="hidden md:flex md:w-[100px] md:h-[150px] lg:w-[130px] lg:h-[180px] xl:w-[200px] xl:h-[250px]">
+      <div className="hidden md:flex md:w-[160px] md:h-[150px] lg:w-[160px] lg:h-[180px] xl:w-[200px] xl:h-[250px]">
         <img
           src="/cookie.png"
           alt="cookie"
@@ -38,19 +38,23 @@ const Cookies = () => {
         <p className="text-sm md:text-[16px] lg:text-lg xl:text-xl font-normal">
           This website uses cookies to improve your experience. By clicking
           “Accept” you are agreeing to our
-          <Link className="text-[#19C2FB] underline"> Cookie Policy</Link>.
+          <Link>
+            {" "}
+            <span className="underline underline-offset-2">Cookie Policy</span>
+          </Link>
+          .
         </p>
 
         <div className="flex flex-row gap-5">
           <button
             onClick={acceptCookie}
-            className="rounded-full w-[50%] bg-[#F94223] text-white font-medium cursor-pointer text-sm md:text-[16px] lg:text-xl xl:text-2xl"
+            className="rounded-full w-[50%] bg-[#CC4237] text-white font-medium cursor-pointer text-sm md:text-[16px] lg:text-xl xl:text-2xl"
           >
             Accept
           </button>
           <button
             onClick={rejectCookie}
-            className="rounded-full w-[50%]  text-[#F94223] border border-[#F94223] font-medium cursor-pointer text-sm md:text-[16px] lg:text-xl xl:text-2xl"
+            className="rounded-full w-[50%]  text-[#CC4237] border border-[#CC4237] font-medium cursor-pointer text-sm md:text-[16px] lg:text-xl xl:text-2xl"
           >
             Reject All
           </button>
