@@ -9,7 +9,7 @@ const CardRight = ({ title, para, buttonRequired, i1, i2, i3, i4 }) => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between px-3 md:px-8 lg:px-14 pointer-events-none min-h-screen w-full">
+    <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between px-3 md:px-8 lg:px-14 pointer-events-none h-fit lg:min-h-screen w-full">
       {/* Left Text */}
       <div className="flex flex-col gap-5 w-full md:w-[90%] lg:w-[45%] xl:w-[43%]">
         <h3 className="text-[#CC4237] text-3xl xl:text-[34px] font-montserrat font-extrabold">
@@ -38,7 +38,7 @@ const CardRight = ({ title, para, buttonRequired, i1, i2, i3, i4 }) => {
       </div>
 
       {/* Right image */}
-      <div className="w-fit relative mt-14 lg:mt-0 lg:pr-6 xl:px-10 rotate-y-180">
+      <div className="w-fit relative mt-20 lg:mt-0 lg:pr-6 xl:px-10 rotate-y-180">
         {/* main image */}
         <img
           src={i1 || "/one.jpg"}

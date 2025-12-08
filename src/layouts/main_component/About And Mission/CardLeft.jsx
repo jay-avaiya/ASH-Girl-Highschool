@@ -9,7 +9,7 @@ const CardLeft = ({ title, para, buttonRequired, i1, i2, i3, i4 }) => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between px-3 md:px-8 lg:px-14 pointer-events-none min-h-screen w-full">
+    <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between px-3 md:px-8 lg:px-14 pointer-events-none h-fit lg:min-h-screen w-full">
       {/* mobile + tab text */}
       <div className="flex lg:hidden  flex-col gap-5 w-full md:w-[90%]">
         <h3 className="text-[#CC4237] text-3xl font-montserrat font-extrabold">
@@ -38,7 +38,7 @@ const CardLeft = ({ title, para, buttonRequired, i1, i2, i3, i4 }) => {
       </div>
 
       {/* left image */}
-      <div className="w-fit relative mt-14 lg:mt-0 lg:pl-6 xl:px-10">
+      <div className="w-fit relative mt-20 lg:mt-0 lg:pl-6 xl:px-10">
         {/* main image */}
         <img
           src={i1 || "/one.jpg"}
