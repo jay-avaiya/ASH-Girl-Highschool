@@ -35,7 +35,7 @@ const AlumniPage = () => {
       </div>
 
       {/* Cards */}
-      <div className="w-[60%]  space-y-10 flex justify-center">
+      <div className="w-full lg:w-[60%]  space-y-10 flex justify-center">
         <div className="w-full xl:w-[1344px] flex flex-col gap-10 sm:gap-[52px] items-center">
           <div className="w-full border border-[#F2647C] rounded-[50px] px-6 sm:px-10 xl:px-13 py-10 sm:py-12 xl:py-16 flex flex-col gap-4 sm:gap-6 xl:gap-[30px]">
             <h3 className="text-[#011844] text-2xl sm:text-3xl xl:text-4xl font-lato font-extrabold">
