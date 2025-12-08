@@ -189,7 +189,7 @@ const Navbar = () => {
           onClick={() => navigate("/")}
           src="/logo.png"
           alt="logo"
-          className="w-[78px] h-[45px] md:w-[140px] md:h-[60px] object-cover cursor-pointer"
+          className="w-[90px] h-[45px] md:w-[140px] md:h-[60px] object-cover cursor-pointer"
         />
 
         <button

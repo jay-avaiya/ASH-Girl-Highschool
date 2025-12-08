@@ -92,11 +92,11 @@ const HeroSlider = () => {
       </Swiper>
 
       {/* Prev & Next Arrow*/}
-      <div className="prev absolute bottom-3 left-[30%] md:left-[40%] lg:left-[43%] xl:left-[45%] z-50 cursor-pointer">
+      <div className="prev absolute bottom-3 left-[30%] md:left-[40%] lg:left-[43%] xl:left-[45%] cursor-pointer">
         <ArrowLeft className="w-5" />
       </div>
 
-      <div className="next absolute bottom-3 right-[30%] md:right-[40%] lg:right-[43%] xl:right-[45%] z-50 cursor-pointer">
+      <div className="next absolute bottom-3 right-[30%] md:right-[40%] lg:right-[43%] xl:right-[45%] cursor-pointer">
         <ArrowRight className="w-5" />
       </div>
     </div>
