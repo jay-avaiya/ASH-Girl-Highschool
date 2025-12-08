@@ -222,7 +222,7 @@ const Footer = () => {
       </div>
 
       <div className="w-full bg-[#CC4237]">
-        <div className="maxw md:h-[58px] h-fit py-3 lg:py-0 flex lg:flex-row flex-col items-center lg:justify-between px-8 md:px-16 lg:px-24 gap-4 ">
+        <div className="maxw lg:h-[58px] h-fit py-3 lg:py-0 flex lg:flex-row flex-col items-center lg:justify-between px-8 md:px-16 lg:px-24 gap-4 ">
           <p
             className={` font-medium md:text-[16px] text-[14px] text-white font-manrope text-center `}
           >
