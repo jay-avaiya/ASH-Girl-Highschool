@@ -98,9 +98,29 @@ const Navbar = () => {
         {/* Top header */}
         <div className="bg-[#1C375E] px-8 py-1 md:px-8 md:py-2 lg:px-14 lg:py-4- xl:px-14 xl:py-[12px]">
           <div className="flex justify-center md:justify-between items-center text-center ">
-            <p className="text-[10px]  md:text-[12px] lg:text-[18px] font-montserrat font-medium text-white">
-              Admission open for Std. 1 to 12 on Ash Education Trust Vijapur
-            </p>
+            <div className="flex items-center gap-6">
+              <div className="w-[25px] h-[25px] rounded-full shrink-0 flex items-center justify-center cursor-pointer">
+                <img
+                  src="/google.png"
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="w-[25px] h-[25px] rounded-full shrink-0 flex items-center justify-center cursor-pointer">
+                <img
+                  src="/facebook.png"
+                  alt=""
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div className="w-[25px] h-[25px] rounded-full shrink-0 flex items-center justify-center cursor-pointer">
+                <img
+                  src="/insta.png"
+                  alt=""
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
 
             <div className="hidden md:block">
               <Search />
